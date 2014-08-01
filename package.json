@@ -1,0 +1,35 @@
+{
+  "name": "gulp-msx-logic",
+  "version": "0.1.0",
+  "author": "John Szwaronek <JohnSz9999@gmail.com>",
+  "description": "Gulp plugin for adding flow logic to Mithril msx templates. Should work for React JSX as well.",
+  "homepage": "http://github.com/eddyystop/gulp-msx-logic",
+  "main": "msxLogic.js",
+  "keywords": [
+    "mithril",
+    "msx",
+    "react",
+    "jsx",
+    "components",
+    "mixins"
+  ],
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/eddyystop/gulp-msx-logic/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eddyystop/gulp-msx-logic.git"
+  },
+  "dependencies": {
+    "gulp-util": "^2.2.14",
+    "through2": "^0.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.0",
+    "gulp-clean": "^0.3.1",
+    "jstransform": "^6.1.0 "
+  }
+}
